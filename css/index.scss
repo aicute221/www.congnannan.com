@@ -1,0 +1,149 @@
+h1,h2,h3,h4,h5,p,div,body,head,ul{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+
+.top{
+  width: 1100px;
+  margin: 10px auto;
+  >p{
+    color: #528e83;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 54px;
+
+  }
+  >ul{
+    display: inline-block;
+    float: right;
+    li{
+      display: inline-block;
+      margin-left: 40px;
+      padding: 12.4px 0;
+      a{
+        display: inline-block;
+        color: #5f8c2b;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 40px;
+        &:hover{
+          color: #2f5c6f;
+        }
+      }
+    }
+  }
+}
+
+.middle{
+  width: 1100px;
+  margin: 100px auto 0 auto;
+  padding-bottom: 50px;
+
+  a{
+    display: inline-block;
+    color: #5f8c2b;
+    font-weight: 400;
+    &:hover{
+      color: #2f5c6f;
+    }
+  }
+
+  .tit-com{
+    color: #327d21;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin: 1em 0;
+  }
+
+  h3{
+    color: #327d21;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin: 1em 0;
+  }
+
+  .content-com{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 1.6em;
+    margin-bottom: 1em;
+  }
+
+  .middle-head{
+    >img{
+      width: 200px;
+      height: 255px;
+      display: inline-block;
+      margin-right: 30px;
+      margin-bottom: 30px;
+      border-radius: 3px;
+    }
+    >div{
+      width: calc(100% - 238px);
+      display: inline-block;
+      vertical-align: top;
+      margin-top: -1em;
+    }
+  }
+
+  .page {
+    position: relative;
+    margin-right: 30px;
+
+    &:hover {
+      .page-cover{
+        display: block;
+      }
+    }
+  }
+
+  .page-item {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 3px;
+  }
+
+  .page-cover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 150px;
+    background-color: rgba(0,10,20,.5);
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    line-height: 150px;
+  }
+
+  .labels {
+    margin: 5px 0 10px 0;
+
+    .label {
+      display: inline-block;
+      background-color: #5f8c2b;
+      color: white;
+      font-size: 14px;
+      line-height: 14px;
+      padding: 4px 10px;
+      border-radius: 11px;
+      user-select: none;
+      cursor: default;
+    }
+  }
+}
